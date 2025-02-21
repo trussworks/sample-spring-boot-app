@@ -26,3 +26,7 @@ or, to use a specific profile, e.g. local:
 ```shell
 ./gradlew bootRun --args='--spring.profiles.active=local'
 ```
+
+## How to interact with the application
+
+Once up and running, use the [postman collection](./postman) to send a request to the application.
