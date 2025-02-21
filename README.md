@@ -15,7 +15,7 @@ You can build and test the app:
 
 ## How to run
 
-You can run the app, but it doesn't do anything:
+You can run the app with the following command:
 
 ```shell
 ./gradlew bootRun
