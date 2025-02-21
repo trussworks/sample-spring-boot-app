@@ -3,11 +3,11 @@ package com.trussworks.demo.app.answer;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AnswerServiceImpl implements AnswerService {
+public class CrudAnswerService implements AnswerService {
 
     private final AnswerRepository answerRepository;
 
-    public AnswerServiceImpl(AnswerRepository answerRepository) {
+    public CrudAnswerService(AnswerRepository answerRepository) {
         this.answerRepository = answerRepository;
     }
 
