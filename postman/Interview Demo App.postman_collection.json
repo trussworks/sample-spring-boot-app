@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "d45dd656-3eb6-466e-a38f-2ddbc464f4d8",
+		"name": "Interview Demo App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17144543",
+		"_collection_link": "https://red-sunset-235516.postman.co/workspace/DirectFile-StateAPI~e42c9b8b-0cdb-46ac-8bbd-d6fad49c3c0c/collection/17144543-d45dd656-3eb6-466e-a38f-2ddbc464f4d8?action=share&source=collection_link&creator=17144543"
+	},
+	"item": [
+		{
+			"name": "Ask question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"What is your purpose?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/question/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"question",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
