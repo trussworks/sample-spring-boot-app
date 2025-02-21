@@ -17,7 +17,7 @@ public class DemoApplication {
 	@Bean
 	CommandLineRunner initAnswers(AnswerRepository answerRepository) {
 		return args -> {
-			answerRepository.save(new Answer("I don't know"));
+			answerRepository.save(new Answer("I don't know."));
 		};
 	}
 }
